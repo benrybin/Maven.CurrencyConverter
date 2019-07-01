@@ -20,11 +20,16 @@ public enum CurrencyType {
         this.rate = rate;
     }
 
-    public Double getRate() {
+    public Double getRate2() {
         return rate;
     }
 
     public static CurrencyType getTypeOfCurrency(ConvertableCurrency currency) {
-        return null;
+
+
+
+
+
+        return currency.getType();
     }
 }
